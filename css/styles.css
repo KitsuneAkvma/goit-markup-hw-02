@@ -1,0 +1,118 @@
+/*---Variables---*/
+
+:root {
+  --clr-background: #fff;
+  --clr-light: #ececec;
+  --clr-dark: #2f303a;
+  --clr-blue: #2196f3;
+  --clr-font: #212121;
+
+  --ff-main: 'Roboto', sans-serif;
+  --ff-logo: 'Raleway', sans-serif;
+  --fw-reg: 400;
+  --fw-med: 500;
+  --fw-bld: 700;
+  --fw-blck: 900;
+}
+
+/*---Body default values (fonts, colots etc.)---*/
+
+body {
+  font-family: var(--ff-main);
+  font-size: 14px;
+
+  background-color: var(--clr-background);
+}
+
+/*Navbar and it's elements*/
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 3.75rem;
+}
+
+/*Navbar logo*/
+
+.logo {
+  margin-left: 13.438rem;
+
+  font-family: var(--ff-logo);
+  font-weight: var(--fw-bld);
+  font-size: 26px;
+}
+.logo > a {
+  text-decoration: none;
+  color: #000;
+}
+.logo > a > span {
+  color: var(--clr-blue);
+}
+
+/*Navbar buttons*/
+.nav-buttons {
+  margin-left: 2.938rem;
+}
+.nav-buttons > a {
+  margin-left: 2.875rem;
+
+  font-weight: var(--fw-med);
+  text-decoration: none;
+  color: var(--clr-font);
+}
+.nav-buttons > a:hover {
+  color: var(--clr-blue);
+}
+
+/*Navbar contact anchors*/
+.nav-contacts {
+  margin-left: 23.188rem;
+}
+.nav-buttons > span {
+  margin-left: 23.188rem;
+  margin-right: 11.063rem;
+}
+.nav-contacts > span > a {
+  margin-right: 3.125rem;
+
+  font-weight: var(--fw-med);
+  text-decoration: none;
+  color: var(--clr-font);
+}
+.nav-contacts > span > a:hover {
+  color: var(--clr-blue);
+}
+
+/*---Header section---*/
+
+.header-mainpage {
+  width: 100%;
+  height: 37.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--clr-background);
+
+  background-color: var(--clr-dark);
+}
+.header-mainpage > * {
+  color: var(--clr-background);
+}
+.call-to-action {
+  padding: 10px 41px 10px 42px;
+
+  font-family: var(--ff-main);
+  font-weight: var(--fw-bld);
+  font-size: 16px;
+  line-height: 30px;
+
+  background-color: var(--clr-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
