@@ -274,7 +274,7 @@ body {
   opacity: 0.6;
 }
 .footer-mail:hover,
-.footer-phone :hover {
+.footer-phone:hover {
   color: var(--clr-blue);
 }
 /*----------------------
