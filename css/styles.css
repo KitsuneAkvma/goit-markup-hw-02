@@ -37,12 +37,12 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-
   width: 100%;
   height: 88px;
 
-  user-select: none;
   border-bottom: 1px solid #ececec;
+
+  user-select: none;
 }
 
 /*---Navbar log---*/
@@ -54,8 +54,8 @@ body {
   letter-spacing: 0.72px;
 }
 .logo > a {
-  text-decoration: none;
   color: #000;
+  text-decoration: none;
 }
 .logo > a > span {
   color: var(--clr-blue);
@@ -63,7 +63,9 @@ body {
 .logo > span {
   color: var(--clr-blue);
 }
+
 /*---Navbar buttons---*/
+
 .nav-buttons {
   max-width: 15.875rem;
   margin-left: 2.938rem;
@@ -71,13 +73,14 @@ body {
   list-style: none;
 }
 .nav-button {
-  display: inline-block;
   margin-right: 0.8rem;
+
+  display: inline-block;
 }
 .nav-button > a {
   font-weight: var(--fw-med);
-  text-decoration: none;
   color: var(--clr-font);
+  text-decoration: none;
 }
 .nav-button > a:hover {
   color: var(--clr-blue);
@@ -94,8 +97,8 @@ body {
   margin-right: 3.125rem;
 
   font-weight: var(--fw-med);
-  text-decoration: none;
   color: var(--clr-font);
+  text-decoration: none;
 }
 .nav-contacts > a:hover {
   color: var(--clr-blue);
@@ -117,9 +120,10 @@ body {
   background-color: var(--clr-dark);
 }
 .header-mainpage > h1 {
+  margin-top: 12.5rem;
+
   display: inline-block;
   width: 40rem;
-  margin-top: 12.5rem;
 
   font-size: 44px;
   line-height: 3.75rem;
@@ -140,14 +144,16 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 
 /*---Feature section---*/
 
 .feature {
+  margin: 5.875rem 13.438rem;
+
   display: flex;
   justify-content: space-around;
-  margin: 5.875rem 13.438rem;
 }
 .feature-text {
   width: 16rem;
@@ -155,7 +161,6 @@ body {
 
 .feature-text > h3 {
   font-size: 14px;
-
   font-weight: var(--fw-bld);
 }
 .feature-text > p {
@@ -166,15 +171,17 @@ body {
 
 /*---What do we do section---*/
 .what-do-we-do {
+  margin-bottom: 5.25em;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5.25em;
 }
 .what-do-we-do > h2 {
+  margin-bottom: 3.125rem;
+
   font-size: 36px;
   font-weight: var(--fw-bld);
-  margin-bottom: 3.125rem;
 }
 .what-do-we-do-photos > img {
   margin-right: 1.875rem;
@@ -192,10 +199,9 @@ body {
   background-color: var(--clr-background-darker);
 }
 .our-team > h2 {
+  margin-block: 5.875rem 3.125rem;
   font-size: 36px;
   font-weight: var(--fw-bld);
-  margin-bottom: 3.125rem;
-  margin-top: 5.875rem;
 }
 .team-members {
   display: flex;
@@ -208,7 +214,8 @@ body {
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 .team-member > h3 {
   font-size: 16px;
@@ -236,8 +243,7 @@ body {
   margin-left: 215px;
 }
 .footer > .logo {
-  margin-top: 3.75rem;
-  margin-bottom: 1.25rem;
+  margin-block: 3.75rem 1.25rem;
 
   user-select: none;
 }
@@ -250,19 +256,21 @@ body {
 .footer-mail {
   margin-bottom: 0.563rem;
 
+  color: var(--clr-background);
   line-height: 1.5rem;
   letter-spacing: 0.72px;
   text-decoration: none;
-  color: var(--clr-background);
+
   opacity: 0.6;
 }
 .footer-phone {
   margin-bottom: 3.75rem;
 
+  color: var(--clr-background);
   line-height: 1.5rem;
   letter-spacing: 0.72px;
   text-decoration: none;
-  color: var(--clr-background);
+
   opacity: 0.6;
 }
 .footer-mail:hover,
@@ -274,9 +282,10 @@ body {
 ----------------------*/
 
 .portfolio {
+  margin: 5.875rem 13.438rem;
+
   display: flex;
   flex-direction: column;
-  margin: 5.875rem 13.438rem;
   align-items: center;
   justify-content: center;
 }
@@ -285,6 +294,7 @@ body {
 
 .filters {
   display: inline-flex;
+
   list-style: none;
 }
 
@@ -302,6 +312,7 @@ body {
   border-radius: 4px;
   border: none;
   background-color: var(--clr-background-darker);
+
   cursor: pointer;
   user-select: none;
 }
@@ -315,16 +326,18 @@ body {
 
 /*---Projects group---*/
 .projects {
+  margin-top: 2.125rem;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 2.125rem;
 }
 
 .project {
   margin-bottom: 1.8rem;
 
   box-sizing: border-box;
+
   border: 1px solid #eeeeee;
 }
 .project > img {
